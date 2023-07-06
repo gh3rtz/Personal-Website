@@ -17,8 +17,8 @@ root.render(
     <Navbar />
     <About />
     <Portofolio />
-    <Contact />
     <CTA />
+    <Contact />
     <Footer />
   </React.StrictMode>
 );
