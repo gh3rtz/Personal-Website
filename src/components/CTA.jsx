@@ -41,11 +41,13 @@ const CTA = () => {
             ensure the security of the online community.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        <div className="grid grid-cols-2 gap-4 mt-2">
           <img
             src={h1}
             alt="hackerone logo"
-            className={`w-full rounded-lg ${isHovered ? "pulse" : ""}`}
+            className={`mt-4 w-full lg:mt-10 rounded-lg ${
+              isHovered ? "pulse" : ""
+            }`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           />
