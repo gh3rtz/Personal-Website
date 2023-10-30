@@ -4,7 +4,7 @@ import bugcrowd from "../assets/bugcrowd.jpg";
 import "../styles/CTA.css"; // Import the CSS file for CTA component
 
 const CTA = () => {
-  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(true);
 
   const handleMouseEnter = () => {
     setIsHovered(true);

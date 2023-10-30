@@ -14,7 +14,7 @@ const About = () => {
         <div className="w-full self-center px-4 lg:w-1/2">
           <h1 className="text-2xl lg:text-4xl md:text-2xl sm:text-xl font-semibold">
             Hi! I'am{" "}
-            <span className=" text-gray-700 font-bold lg:text-4xl">
+            <span className=" text-gray-800 font-bold lg:text-4xl">
               Givari Hertz
             </span>
           </h1>
@@ -23,10 +23,12 @@ const About = () => {
             <span className="text-orange-500"> Front-end Developer</span>
           </h2>
           <p className="mt-8 mb-10 leading-relaxed text-slate-600">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint sunt
-            sit, unde architecto nesciunt voluptates magni aut iure ut culpa
-            cupiditate laboriosam quam delectus repellendus ad cum quo animi
-            omnis?
+            Since high school until now, I have shown a deep interest in the
+            field of cybersecurity. I began my academic journey at Budi Luhur
+            University in 2020, choosing a focus on Cybersecurity. During my
+            time of study, I have actively pursued interests and gained
+            experience in discovering security vulnerabilities on bug bounty
+            platforms, both public and private.
           </p>
 
           <div className="flex items-center space-x-3">

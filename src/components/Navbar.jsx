@@ -18,14 +18,13 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="text-2xl container flex items-center justify-between mx-auto mb-16 pl-5">
+      <div className="text-2xl container flex items-center justify-between mx-auto mb-16 px-8">
         <a href="https://givarihertz.com" className="flex items-center">
           <h1 className="font-bold">
-            Givari <span className="text-gray-600 font-bold">Hertz</span>
+            Givari <span className="text-orange-500 font-bold">Hertz</span>
           </h1>
         </a>
         <div className="flex md:order-2">
-          {/* <a href="" className='flex items-center'> */}
           <button
             onClick={onButtonClick}
             className="text-2xl hover:bg-black hover:text-white focus:ring-4 focus:outline-none font-medium
@@ -33,16 +32,15 @@ const Navbar = () => {
           >
             myCV
           </button>
-          {/* </a> */}
         </div>
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
-          <ul className="flex flex-col p-4 mt-4 border border-gray-400 rounded-lg md:flex-row ">
+          <ul className="flex flex-col p-4 mt-4 md:flex-row">
             <li>
               <a
                 href="#about"
-                className="block py-2 pl-3 pr-4 text-gray-700 hover:bg-orange-500 hover:font-bold focus:ring-4
+                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold focus:ring-4
                 focus:outline-none focus:ring-blue-300
-                font-medium rounded-lg text-sm px-5 text-center mr-3 md:mr-0"
+                font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
               >
                 About
               </a>
@@ -50,19 +48,19 @@ const Navbar = () => {
             <li>
               <a
                 href="#porto"
-                className="block py-2 pl-3 pr-4 text-gray-700 hover:bg-orange-500 hover:font-bold focus:ring-4
+                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold focus:ring-4
                 focus:outline-none
-                focus:ring-blue-300 font-medium rounded-lg text-sm px-5 text-center mr-3 md:mr-0"
+                focus:ring-blue-300 font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
               >
-                Portofolio
+                Projects
               </a>
             </li>
             <li>
               <a
                 href="#contact"
-                className="block py-2 pl-3 pr-4 text-gray-700 hover:bg-orange-500 hover:font-bold focus:ring-4
+                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold focus:ring-4
                 focus:outline-none
-                focus:ring-blue-300 font-medium rounded-lg text-sm px-5 text-center mr-3 md:mr-0"
+                focus:ring-blue-300 font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
               >
                 Contact
               </a>

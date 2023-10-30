@@ -1,23 +1,52 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
+import DOMPurify from "dompurify";
 
 const Contact = () => {
   const form = useRef();
 
+  // Function to sanitize user input
+  const sanitizeInput = (input) => {
+    return DOMPurify.sanitize(input);
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Sanitize user inputs
+    const userEmail = sanitizeInput(form.current.user_email.value);
+    const userName = sanitizeInput(form.current.from_name.value);
+    const userMessage = sanitizeInput(form.current.message.value);
+
+    // Create a sanitized form data
+    const sanitizedFormData = new FormData();
+    sanitizedFormData.append("user_email", userEmail);
+    sanitizedFormData.append("from_name", userName);
+    sanitizedFormData.append("message", userMessage);
+
     emailjs
       .sendForm(
-        "service_06b8jul",
-        "template_yvpvejb",
+        "service_gtvrr5o",
+        "template_5w8dhc3",
         form.current,
-        "yqE0xKWqlBknN5Fa3"
+        "pi6BSJk4IMNRxNJw9"
       )
       .then(
         (result) => {
           console.log(result.text);
           console.log("message sent");
+
+          // Show SweetAlert2 popup when the message is sent
+          Swal.fire({
+            title: "Message Sent",
+            text: "We will reach you soon!",
+            icon: "success",
+            confirmButtonText: "OK",
+          }).then(() => {
+            // Reload the page after the user clicks "OK"
+            window.location.reload();
+          });
         },
         (error) => {
           console.log(error.text);
@@ -47,7 +76,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light hover:border-gray-700"
-              placeholder="contact@givarihertz.com"
+              placeholder="your_email@mail.com"
               required
             />
           </div>
@@ -62,7 +91,7 @@ const Contact = () => {
               type="text"
               name="from_name"
               className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light hover:border-gray-700"
-              placeholder="Let me know how i can help you"
+              placeholder="Let me know how I can help you"
               required
             />
           </div>
@@ -83,7 +112,7 @@ const Contact = () => {
           <button
             type="submit"
             value="Send"
-            className="py-3 px-5 text-sm text-white font-medium rounded-lg bg-gray-700 hover:bg-orange-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 "
+            className="py-3 px-5 text-sm text-white font-medium rounded-lg bg-gray-700 hover:bg-orange-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
             Send message
           </button>
