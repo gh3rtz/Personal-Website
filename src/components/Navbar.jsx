@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex md:order-2">
           <button
             onClick={onButtonClick}
-            className="text-2xl hover:bg-black hover:text-white focus:ring-4 focus:outline-none font-medium
+            className="text-2xl hover:bg-black hover:text-white focus:outline-none font-medium
           rounded-lg px-5 py-2.5 text-center mr-3 md:mr-0"
           >
             myCV
@@ -38,8 +38,8 @@ const Navbar = () => {
             <li>
               <a
                 href="#about"
-                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold focus:ring-4
-                focus:outline-none focus:ring-blue-300
+                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold
+                focus:outline-none
                 font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
               >
                 About
@@ -48,9 +48,8 @@ const Navbar = () => {
             <li>
               <a
                 href="#porto"
-                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold focus:ring-4
-                focus:outline-none
-                focus:ring-blue-300 font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
+                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold
+                focus:outline-none font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
               >
                 Projects
               </a>
@@ -58,9 +57,8 @@ const Navbar = () => {
             <li>
               <a
                 href="#contact"
-                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold focus:ring-4
-                focus:outline-none
-                focus:ring-blue-300 font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
+                className="block py-2 pl-3 pr-4 text-gray-700 hover:font-bold
+                focus:outline-none font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0"
               >
                 Contact
               </a>

@@ -2,7 +2,7 @@ import React from "react";
 import profile from "../assets/profile.png";
 import { AiOutlineArrowsAlt } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
-import { AiOutlineTwitter } from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -47,7 +47,7 @@ const About = () => {
               href="https://twitter.com/gh3rtz"
               className="hover:text-gray-500"
             >
-              <AiOutlineTwitter size={25} />
+              <FaSquareXTwitter size={25} />
               <span className="sr-only">Twitter</span>
             </a>
             <a href="https://github.com/gh3erz" className="hover:text-gray-500">
