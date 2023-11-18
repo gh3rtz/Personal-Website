@@ -19,8 +19,8 @@ const About = () => {
             </span>
           </h1>
           <h2 className="font-bold mt-4 text-bold text-4xl lg:text-6xl md:text-4xl">
-            Cyber Security and
-            <span className="text-orange-500"> Front-end Developer</span>
+            Cyber Security <span className="text-orange-500">and</span>
+            <span className=""> Front-end Developer</span>
           </h2>
           <p className="mt-8 mb-10 leading-relaxed text-slate-600">
             Since high school until now, I have shown a deep interest in the
