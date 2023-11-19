@@ -5,7 +5,7 @@ import nextLogo from "../assets/icons8-nextjs.svg";
 import jsLogo from "../assets/icons8-javascript.svg";
 import cssLogo from "../assets/icons8-css.svg";
 import reactLogo from "../assets/icons8-react-js.svg";
-import tailwindLogo from "../assets/icons8-nextjs.svg";
+import tailwindLogo from "../assets/icons8-tailwindcss.svg";
 import bootstrapLogo from "../assets/icons8-bootstrap.svg";
 import gitLogo from "../assets/icons8-git.svg";
 import phpLogo from "../assets/icons8-php.svg";
@@ -30,15 +30,15 @@ const Tech = () => {
             </a>
             <a href="#" className="flex justify-center items-center">
               {/* Replace this comment with your SVG or logo */}
-              <img src={reactLogo} alt="reactLogo" className="w-36 h-36" />
-            </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
               <img
                 src={bootstrapLogo}
                 alt="bootstrapLogo"
                 className="w-36 h-36"
               />
+            </a>
+            <a href="#" className="flex justify-center items-center">
+              {/* Replace this comment with your SVG or logo */}
+              <img src={reactLogo} alt="reactLogo" className="w-36 h-36" />
             </a>
             <a href="#" className="flex justify-center items-center">
               {/* Replace this comment with your SVG or logo */}
