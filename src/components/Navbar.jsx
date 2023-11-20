@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav>
       <div className="text-2xl container flex items-center justify-between mx-auto mb-16 px-8">
         <a href="https://givarihertz.com" className="flex items-center">
-          <h1 className="font-bold">
+          <h1 className="font-bold uppercase">
             Givari <span className="text-orange-500 font-bold">Hertz</span>
           </h1>
         </a>

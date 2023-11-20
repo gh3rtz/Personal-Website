@@ -13,9 +13,12 @@ const About = () => {
       <div className="flex flex-wrap m-4">
         <div className="w-full self-center px-4 lg:w-1/2">
           <h1 className="text-2xl lg:text-4xl md:text-2xl sm:text-xl font-semibold">
-            Hi, I'am{" "}
-            <span className=" text-gray-800 font-bold lg:text-4xl">
-              Givari Hertz
+            Hi,{" "}
+            <span className="font-extrabold lg:text-4xl uppercase">
+              Givari Hertz{" "}
+            </span>
+            <span className="text-2xl lg:text-4xl md:text-2xl sm:text-xl font-semibold">
+              Here .
             </span>
           </h1>
           <h2 className="font-bold mt-4 text-bold text-4xl lg:text-6xl md:text-4xl">
