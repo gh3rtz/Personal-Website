@@ -33,8 +33,8 @@ const Navbar = () => {
             myCV
           </button>
         </div>
-        <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
-          <ul className="flex flex-col p-4 mt-4 md:flex-row">
+        <div className="items-center justify-bet_ween hidden w-full md:flex md:w-auto md:order-1 ">
+          <ul className="flex flex-col p-4 mt-4 md:flex-row ">
             <li>
               <a
                 href="#about"

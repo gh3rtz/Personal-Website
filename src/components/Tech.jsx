@@ -20,44 +20,36 @@ const Tech = () => {
 
         <Marquee gradient pauseOnHover>
           <div className="grid grid-cols-2 gap-2 text-gray-500 sm:gap-8 md:grid-cols-8 lg:items-center dark:text-gray-400">
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img src={nextLogo} alt="nextLogo" className="w-36 h-36" />
             </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img src={cssLogo} alt="nextLogo" className="w-36 h-36" />
             </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img
                 src={bootstrapLogo}
                 alt="bootstrapLogo"
                 className="w-36 h-36"
               />
             </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img src={reactLogo} alt="reactLogo" className="w-36 h-36" />
             </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img
                 src={tailwindLogo}
                 alt="tailwindLogo"
                 className="w-36 h-36"
               />
             </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img src={jsLogo} alt="jsLogo" className="w-36 h-36" />
             </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img src={phpLogo} alt="phpLogo" className="w-36 h-36" />
             </a>
-            <a href="#" className="flex justify-center items-center">
-              {/* Replace this comment with your SVG or logo */}
+            <a href="#!" className="flex justify-center items-center">
               <img src={gitLogo} alt="gitLogo" className="w-36 h-36" />
             </a>
           </div>
