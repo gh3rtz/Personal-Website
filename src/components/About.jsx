@@ -8,24 +8,24 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="dark:bg-gray-900">
       {/* leftside */}
-      <div className="flex flex-wrap m-4">
+      <div className="flex flex-wrap">
         <div className="w-full self-center px-4 lg:w-1/2">
-          <h1 className="text-2xl lg:text-4xl md:text-2xl sm:text-xl font-semibold">
+          <h1 className="text-2xl lg:text-4xl md:text-2xl sm:text-xl font-semibold mt-16 dark:text-white">
             Hi,{" "}
-            <span className="font-extrabold lg:text-4xl uppercase">
+            <span className="font-extrabold lg:text-4xl uppercase dark:text-orange-500">
               Givari Hertz{" "}
             </span>
             <span className="text-2xl lg:text-4xl md:text-2xl sm:text-xl font-semibold">
               Here .
             </span>
           </h1>
-          <h2 className="font-bold mt-4 text-bold text-4xl lg:text-6xl md:text-4xl">
+          <h2 className="font-bold mt-4 text-bold text-4xl lg:text-6xl md:text-4xl dark:text-white">
             Cyber Security <span className="text-orange-500">and</span>
             <span className=""> Front-end Developer</span>
           </h2>
-          <p className="mt-8 mb-10 leading-relaxed text-slate-600">
+          <p className="mt-8 mb-10 leading-relaxed text-slate-600 dark:text-white dark:font-light">
             Since high school until now, I have shown a deep interest in the
             field of cybersecurity. I began my academic journey at Budi Luhur
             University in 2020, choosing a focus on Cybersecurity. During my
@@ -35,29 +35,35 @@ const About = () => {
           </p>
 
           <div className="flex items-center space-x-3">
-            <h2 className="flex items-center hover:text-gray-700 text-lg font-medium py-3">
+            <h2 className="flex items-center hover:text-gray-700 text-lg font-medium py-3 dark:text-white">
               Connect with me
               <AiOutlineArrowsAlt />
             </h2>
             <a
               href="https://instagram.com/givarirmdn"
-              className="hover:text-gray-500"
+              className="hover:text-gray-500 dark:text-orange-700"
             >
               <AiFillInstagram size={25} />
               <span className="sr-only">Instagram</span>
             </a>
             <a
               href="https://twitter.com/gh3rtz"
-              className="hover:text-gray-500"
+              className="hover:text-gray-500 dark:text-orange-700"
             >
               <FaSquareXTwitter size={25} />
               <span className="sr-only">Twitter</span>
             </a>
-            <a href="https://github.com/gh3erz" className="hover:text-gray-500">
+            <a
+              href="https://github.com/gh3erz"
+              className="hover:text-gray-500 dark:text-orange-700"
+            >
               <AiFillGithub size={25} />
               <span className="sr-only">Github</span>
             </a>
-            <a href="https://linkedin.com/" className="hover:text-gray-500">
+            <a
+              href="https://linkedin.com/"
+              className="hover:text-gray-500 dark:text-orange-700"
+            >
               <FaLinkedinIn size={25} />
               <span className="sr-only">Linkedin</span>
             </a>

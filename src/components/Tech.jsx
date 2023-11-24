@@ -14,12 +14,12 @@ const Tech = () => {
   return (
     <section id="tech" className="bg-white dark:bg-gray-900">
       <div className="py-8 lg:py-16 mx-auto max-w-screen-xl">
-        <h2 className="mb-6 lg:mb-2 text-3xl font-bold text-center text-gray-900 md:text-3xl">
+        <h2 className="mb-6 lg:mb-2 text-3xl font-bold text-center text-gray-900 md:text-3xl dark:text-white">
           Tech Stack
         </h2>
 
-        <Marquee gradient pauseOnHover>
-          <div className="grid grid-cols-2 gap-2 text-gray-500 sm:gap-8 md:grid-cols-8 lg:items-center dark:text-gray-400">
+        <Marquee pauseOnHover>
+          <div className="grid grid-cols-2 gap-2 text-gray-500 sm:gap-8 md:grid-cols-8 lg:items-center dark:text-gray-400 mb-24">
             <a href="#!" className="flex justify-center items-center">
               <img src={nextLogo} alt="nextLogo" className="w-36 h-36" />
             </a>

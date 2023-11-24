@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section id="footer" className="shadow shadow-black">
+    <section id="footer" className="shadow shadow-black dark:bg-gray-900">
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
-          <div className="px-5 py-2">
+          <div className="px-5 py-2 ">
             <a
               href="#about"
-              className="text-base leading-6 text-gray-500 hover:text-orange-900"
+              className="text-base leading-6 text-gray-500 hover:text-orange-900 dark:text-white"
             >
               About
             </a>
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="px-5 py-2">
             <a
               href="#porto"
-              className="text-base leading-6 text-gray-500 hover:text-orange-900"
+              className="text-base leading-6 text-gray-500 hover:text-orange-900 dark:text-white"
             >
               Portofolio
             </a>
@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="px-5 py-2">
             <a
               href="#hobbies"
-              className="text-base leading-6 text-gray-500 hover:text-orange-900"
+              className="text-base leading-6 text-gray-500 hover:text-orange-900 dark:text-white"
             >
               Hobbies
             </a>
@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="px-5 py-2">
             <a
               href="#contact"
-              className="text-base leading-6 text-gray-500 hover:text-orange-900"
+              className="text-base leading-6 text-gray-500 hover:text-orange-900 dark:text-white"
             >
               Contact
             </a>
@@ -105,7 +105,7 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-        <p className="mt-8 text-base leading-6 text-center text-gray-400">
+        <p className="mt-8 text-base leading-6 text-center text-gray-400 dark:text-white">
           © 2023 Givari Hertz. All rights reserved.
         </p>
       </div>

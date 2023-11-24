@@ -4,10 +4,10 @@ import tokoKue from "../assets/tokoKue.png";
 
 const Portofolio = () => {
   return (
-    <section id="porto">
-      <div className="container my-36 px-6 mx-auto">
-        <div className="mb-32 text-gray-800 text-center">
-          <h2 className="text-3xl font-bold mb-12 pb-4 text-center">
+    <section id="porto" className="dark:bg-gray-900">
+      <div className="container px-6 mx-auto">
+        <div className=" text-gray-800 text-center">
+          <h2 className="text-3xl font-bold mb-12 pb-4 text-center dark:text-white">
             Projects are proud of
           </h2>
           <div className="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
@@ -91,7 +91,7 @@ const Portofolio = () => {
                     </a>
                   </div>
                 </div>
-                <div className="p-6">
+                <div className="p-6 mb-24">
                   <h5 className="font-bold text-lg mb-3">Happy snow</h5>
                   <p className="mb-4 pb-2">
                     Curabitur tristique, mi a mollis sagittis, metus felis
@@ -102,7 +102,7 @@ const Portofolio = () => {
                     href="#!"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    className="inline-block px-6 py-2.5 bg-gray-900 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-orange-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2.5  bg-gray-900 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-orange-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     Read more
                   </a>
