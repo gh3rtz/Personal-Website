@@ -91,7 +91,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/your-linkedin-profile"
+            href="https://www.linkedin.com/in/givarirmdn/"
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">LinkedIn</span>
