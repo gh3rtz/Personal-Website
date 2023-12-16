@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { inject } from "@vercel/analytics";
+import { useEffect } from "react";
 import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -11,6 +12,10 @@ import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 
 const App = () => {
+  useEffect(() => {
+    // Inject Vercel Analytics script
+    inject();
+  }, []);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -29,7 +34,6 @@ const App = () => {
           <Contact />
           <Footer />
         </div>
-        <SpeedInsights />
       </ThemeProvider>
     </BrowserRouter>
   );
