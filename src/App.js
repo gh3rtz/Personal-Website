@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
@@ -13,9 +13,15 @@ import { inject } from "@vercel/analytics";
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
+  useEffect(() => {
+    // Initialize Vercel Analytics
+    inject(); // Use the inject method to initialize Vercel Analytics
+  }, []);
+
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-    inject();
+    // Track event when dark mode is toggled
+    // Use other tracking methods or integrations as provided by Vercel Analytics
   };
 
   return (
