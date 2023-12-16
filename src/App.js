@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ThemeProvider } from "./context/ThemeContext";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -28,6 +29,7 @@ const App = () => {
           <Contact />
           <Footer />
         </div>
+        <SpeedInsights />
       </ThemeProvider>
     </BrowserRouter>
   );
