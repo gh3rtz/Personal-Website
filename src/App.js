@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import { inject } from "@vercel/analytics";
 
 const App = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     // Initialize Vercel Analytics

@@ -86,7 +86,7 @@ const Navbar = () => {
                 duration={500}
                 className={`block py-2 pl-3 pr-4 text-gray-700 hover:font-bold
                   focus:outline-none
-                  font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0 dark:text-white ${
+                  font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0 dark:text-white cursor-pointer ${
                     scrollY > 0 ? "dark:hover:bg-opacity-70" : ""
                   }`}
               >
@@ -101,7 +101,7 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}
                 className={`block py-2 pl-3 pr-4 text-gray-700 hover:font-bold
-                  focus:outline-none font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0 dark:text-white ${
+                  focus:outline-none font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0 dark:text-white cursor-pointer ${
                     scrollY > 0 ? "dark:hover:bg-opacity-70" : ""
                   }`}
               >
@@ -116,7 +116,7 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}
                 className={`block py-2 pl-3 pr-4 text-gray-700 hover:font-bold
-                  focus:outline-none font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0 dark:text-white ${
+                  focus:outline-none font-medium rounded-lg text-md px-5 text-center mr-3 md:mr-0 dark:text-white cursor-pointer ${
                     scrollY > 0 ? "dark:hover:bg-opacity-70" : ""
                   }`}
               >
