@@ -1,6 +1,7 @@
 import React from "react";
 import cySec from "../assets/cySec.png";
-import tokoKue from "../assets/tokoKue.png";
+import gh3rtz from "../assets/gh3rtz.png";
+import CI3 from "../assets/CI3.png"
 
 const Portofolio = () => {
   return (
@@ -20,7 +21,7 @@ const Portofolio = () => {
                     data-mdb-ripple-color="light"
                   >
                     <img src={cySec} alt="tokoKue" className="w-full" />
-                    <a href="#!">
+                    <a href="https://givarihertz.com">
                       <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"></div>
                     </a>
                   </div>
@@ -28,9 +29,7 @@ const Portofolio = () => {
                 <div className="p-6">
                   <h5 className="font-bold text-lg mb-3">CyberSec by gh3rtz</h5>
                   <p className="mb-4 pb-2">
-                    Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-                    placerat vulputate. Ut vulputate est non quam dignissim
-                    elementum. Donec a ullamcorper diam.
+                  Platform komunitas keamanan cyber sharing tools dan metodologi terkini seputar dunia cyber security. Dan tutorial-tutorial lainnya. Dibuat menggunakan Wordpress
                   </p>
                   <a
                     href="https://givarihertz.com"
@@ -38,7 +37,7 @@ const Portofolio = () => {
                     data-mdb-ripple-color="light"
                     className="inline-block px-6 py-2.5 bg-gray-900 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-orange-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
-                    Read more
+                    VISIT
                   </a>
                 </div>
               </div>
@@ -52,26 +51,24 @@ const Portofolio = () => {
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                   >
-                    <img src={tokoKue} alt="tokoKue" className="w-full" />
-                    <a href="#!">
+                    <img src={gh3rtz} alt="tokoKue" className="w-full" />
+                    <a href="https://gh3rtz.com">
                       <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"></div>
                     </a>
                   </div>
                 </div>
                 <div className="p-6">
-                  <h5 className="font-bold text-lg mb-3">Kha Cake's</h5>
+                  <h5 className="font-bold text-lg mb-3">gh3rtz</h5>
                   <p className="mb-4 pb-2">
-                    Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
-                    diam orci, nec ornare metus semper sed. Integer volutpat
-                    ornare erat sit amet rutrum.
+                    Platform yang menyediakan kebutuhan ethical hacker seperti google dorking dan subdomain finding, parameter finding dan xss injection attack. Dibuat menggunakan ReactJS dan TailwindCSS
                   </p>
                   <a
-                    href="https://tokokue.givarihertz.com"
+                    href="https://gh3rtz.com"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                     className="inline-block px-6 py-2.5 bg-gray-900 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-orange-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
-                    Read more
+                    VISIT
                   </a>
                 </div>
               </div>
@@ -85,18 +82,16 @@ const Portofolio = () => {
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                   >
-                    <img src={tokoKue} alt="projectTiga" className="w-full" />
+                    <img src={CI3} alt="vapeStore" className="w-full" />
                     <a href="#!">
                       <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"></div>
                     </a>
                   </div>
                 </div>
                 <div className="p-6 mb-24">
-                  <h5 className="font-bold text-lg mb-3">Happy snow</h5>
+                  <h5 className="font-bold text-lg mb-3">Vape Store</h5>
                   <p className="mb-4 pb-2">
-                    Curabitur tristique, mi a mollis sagittis, metus felis
-                    mattis arcu, non vehicula nisl dui quis diam. Mauris ut
-                    risus eget massa volutpat feugiat. Donec.
+                    Website jual beli vape, liquid dan kebutuhan sejenis lainnya. Sistem User dan Admin Dibuat menggunakan CodeIgniter3 dan Bootstrap
                   </p>
                   <a
                     href="#!"
@@ -104,7 +99,7 @@ const Portofolio = () => {
                     data-mdb-ripple-color="light"
                     className="inline-block px-6 py-2.5  bg-gray-900 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-orange-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
-                    Read more
+                    VISIT
                   </a>
                 </div>
               </div>
